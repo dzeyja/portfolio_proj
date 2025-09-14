@@ -22,3 +22,15 @@ body {
   color: #fff;
   font-weight: 500;
 }
+
+.title {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.title span {
+  color: var(--primary-color);
+}
+

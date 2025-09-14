@@ -1,0 +1,20 @@
+.about {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.about_text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+
+.about_cards {
+    width: 50%;
+}

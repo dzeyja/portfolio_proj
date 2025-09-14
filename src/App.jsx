@@ -1,3 +1,4 @@
+import AboutSection from "./components/AboutSection/AboutSection"
 import Header from "./components/Header/Header"
 import HeroSection from "./components/HeroSection/HeroSection"
 
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <main>
         <HeroSection />
+        <AboutSection />
       </main>
     </>
   )
