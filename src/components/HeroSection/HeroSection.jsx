@@ -1,5 +1,6 @@
 import './HeroSection.css'
 import downArrow from '../../assets/down-arrow.png'
+import Button from '../UI/Button/Button'
 
 const HeroSection = () => {
     return (
@@ -17,9 +18,9 @@ const HeroSection = () => {
                             interfaces that are both beautiful and 
                             functional.
                         </p>
-                        <button className='btn'>
+                        <Button>
                             View My Work
-                        </button>
+                        </Button>
                     </div>
                     <div className='down-arrow'>
                         <p>Scroll</p>

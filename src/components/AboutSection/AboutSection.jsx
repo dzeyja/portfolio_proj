@@ -1,4 +1,8 @@
 import './AboutSection.css'
+import codeIcon from '../../assets/code.png'
+import userIcon from '../../assets/user.png'
+import caseIcon from '../../assets/case.png'
+import Button from '../UI/Button/Button'
 
 const AboutSection = () => {
     return (
@@ -22,10 +26,15 @@ const AboutSection = () => {
                             and I'm constantly learning new technologies and techniques to stay at 
                             the forefront of the ever-evolving web landscape.
                         </p>
+                        <Button>
+                            Get On Touch
+                        </Button>
                     </div>
                     <div className="about_cards">
                         <div className="about_card">
-                            <img src="" alt="" />
+                            <div className="image_wrapper">
+                                <img src={codeIcon} alt="" />
+                            </div>
                             <div className='text'>
                                 <h2>Web Development</h2>
                                 <p>
@@ -36,7 +45,9 @@ const AboutSection = () => {
                             </div>
                         </div>
                         <div className="about_card">
-                            <img src="" alt="" />
+                            <div className="image_wrapper">
+                                <img src={userIcon} alt="" />
+                            </div>
                             <div className='text'>
                                 <h2>
                                     UI/UX Design
@@ -48,7 +59,9 @@ const AboutSection = () => {
                             </div>
                         </div>
                         <div className="about_card">
-                            <img src="" alt="" />
+                            <div className="image_wrapper">
+                                <img src={caseIcon} alt="" />
+                            </div>
                             <div className='text'>
                                 <h2>
                                     Project Management
