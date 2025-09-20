@@ -1,0 +1,9 @@
+.project_title {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.project_title p {
+    margin-top: 17px;
+}
