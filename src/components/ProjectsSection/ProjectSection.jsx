@@ -1,4 +1,7 @@
 import './ProjectSection.css'
+import proj1 from '../../assets/project1.png'
+import proj2 from '../../assets/project2.png'
+import proj3 from '../../assets/project3.png'
 
 const ProjectSection = () => {
     return (
@@ -18,21 +21,24 @@ const ProjectSection = () => {
 
                 <div className="project_cards">
                     <div className="project_card">
-                        <img src="" alt="" />
+                        <img src={proj1} alt="" />
                         <div className="project_text">
-
+                            <h1>SaaS Landing Page</h1>
+                            <p>A beautiful landing page app using React and Tailwind.</p>
                         </div>
                     </div>
                     <div className="project_card">
-                        <img src="" alt="" />
+                        <img src={proj2} alt="" />
                         <div className="project_text">
-                            
+                            <h1>Orbit Analytics Dashboard</h1>
+                            <p>Interactive analytics dashboard with data visualization and filtering capabilities.</p>
                         </div>
                     </div>
                     <div className="project_card">
-                        <img src="" alt="" />
+                        <img src={proj3} alt="" />
                         <div className="project_text">
-                            
+                            <h1>E-commerce Platform</h1>
+                            <p>Full-featured e-commerce platform with user authentication and payment processing.</p>
                         </div>
                     </div>
                 </div>
