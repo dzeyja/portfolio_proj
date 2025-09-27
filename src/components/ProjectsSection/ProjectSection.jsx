@@ -1,7 +1,4 @@
 import './ProjectSection.css'
-import proj1 from '../../assets/project1.png'
-import proj2 from '../../assets/project2.png'
-import proj3 from '../../assets/project3.png'
 import ProjectCards from '../ProjectCards/ProjectCards'
 
 const ProjectSection = () => {

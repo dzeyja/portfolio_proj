@@ -1,4 +1,6 @@
 import './Card.css'
+import { LuGithub } from "react-icons/lu";
+import { RiShareForwardBoxFill } from "react-icons/ri";
 
 const Card = (props) => {
     const { 
@@ -9,8 +11,19 @@ const Card = (props) => {
         <div className="project_card">
             <img src={project.image} alt="" />
             <div className="project_text">
+                <div className='tags'>
+                    {project.tags.map(tag => (
+                        <div className="tag">
+                            {tag}
+                        </div>
+                    ))}
+                </div>
                 <h1>{project.title}</h1>
                 <p>{project.description}</p>
+                <div className='project_links'>
+                    <RiShareForwardBoxFill />
+                    <LuGithub />
+                </div>
             </div>
         </div>
     )
