@@ -44,6 +44,7 @@ const ContactSection = () => {
                         </div>
                     </div>
                     <form className="contact_form">
+                        <h1>Send a Message</h1>
                         <div>
                             <label htmlFor="name">Your Name</label>
                             <input 
